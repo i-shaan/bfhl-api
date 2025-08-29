@@ -45,7 +45,7 @@ app.post("/bfhl", (req, res) => {
       }
     });
 
-    // Reverse + alternating caps
+
     concatLetters = concatLetters.reverse();
     let concat_string = concatLetters
       .map((ch, idx) =>
